@@ -32,3 +32,12 @@ tr:hover td:nth-child(2n-1) {
 p:nth-child(3n) {
     color: red;
 }
+
+.fixed {
+    top: 20px;
+    position: sticky;
+}
+
+.last {
+    margin-top: 1000px;
+}
