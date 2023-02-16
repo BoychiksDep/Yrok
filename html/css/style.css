@@ -1,7 +1,6 @@
-body{
+body {
     background-color: #4169E1;
 }
-
 
 header ul {
     display: flex;
@@ -13,13 +12,8 @@ header ul {
     margin-top: 100px;
     /* padding-top: 20px; */
 }
-.ds{
-    display: flex;
-    justify-content: center;
 
-}
-
-main{
+main {
     background-color: white;
     width: 600px;
     height: 300px;
