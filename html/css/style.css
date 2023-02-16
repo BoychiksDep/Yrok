@@ -13,10 +13,25 @@ header ul {
     /* padding-top: 20px; */
 }
 
+.photo img {
+    width: 200px;
+}
+
+.info {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.text {
+    display: flex;
+}
+
 main {
     background-color: white;
     width: 600px;
-    height: 300px;
     margin: 0 auto;
     /* яке margin-left?? центруй */
     /* або флексами або margin: 0 auto; */
