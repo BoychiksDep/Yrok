@@ -1,0 +1,27 @@
+/* #clas{
+    background: #000;
+} */
+header ul {
+    display: flex;
+    list-style: none;
+    padding: 10;
+    justify-content: space-around;
+    font-size: 18px;
+    /* vertical-align; */
+    margin-top: 100px;
+    /* padding-top: 20px; */
+}
+.ds{
+    display: flex;
+  justify-content: center;
+  height: 100%;
+}
+
+.sd{
+    background-color: white;
+    width: 600px;
+    height: 300px;
+    margin-left: 200px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
