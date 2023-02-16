@@ -1,6 +1,8 @@
-/* #clas{
-    background: #000;
-} */
+body{
+    background-color: #4169E1;
+}
+
+
 header ul {
     display: flex;
     list-style: none;
@@ -13,8 +15,8 @@ header ul {
 }
 .ds{
     display: flex;
-  justify-content: center;
-  height: 100%;
+    justify-content: center;
+
 }
 
 main{
