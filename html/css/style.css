@@ -1,7 +1,6 @@
-body{
+body {
     background-color: #4169E1;
 }
-
 
 header ul {
     display: flex;
@@ -13,16 +12,26 @@ header ul {
     margin-top: 100px;
     /* padding-top: 20px; */
 }
-.ds{
-    display: flex;
-    justify-content: center;
 
+.photo img {
+    width: 200px;
 }
 
-main{
+.info {
+    display: flex;
+}
+
+ul {
+    list-style: none;
+}
+
+.text {
+    display: flex;
+}
+
+main {
     background-color: white;
     width: 600px;
-    height: 300px;
     margin: 0 auto;
     /* яке margin-left?? центруй */
     /* або флексами або margin: 0 auto; */
