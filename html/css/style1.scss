@@ -1,12 +1,25 @@
-// body {
-//     background-color: skyblue;
-// }
-// header {}
-// main {
-//     background-color: white;
-//     margin: 0 auto;
-//     width: 700px;
-//     ul {
-//         color: red;
-//     }
-// }
+body {
+    background-color: skyblue;
+}
+
+.header {
+    width: 100px;
+    &_top {
+        color: red;
+    }
+    &_text {
+        color: red;
+        .text {
+            margin-top: 100px;
+        }
+    }
+}
+
+main {
+    background-color: white;
+    margin: 0 auto;
+    width: 700px;
+    ul {
+        color: red;
+    }
+}

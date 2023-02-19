@@ -2,6 +2,16 @@ body {
     background-color: #4169E1;
 }
 
+.container {
+    width: 600px;
+    margin: 0 auto;
+}
+
+header>div {
+    width: 200px;
+    margin: 0 auto;
+}
+
 header ul {
     display: flex;
     list-style: none;
@@ -31,7 +41,6 @@ ul {
 
 main {
     background-color: white;
-    width: 600px;
     margin: 0 auto;
     /* яке margin-left?? центруй */
     /* або флексами або margin: 0 auto; */

@@ -2,6 +2,19 @@ body {
   background-color: skyblue;
 }
 
+.header {
+  width: 100px;
+}
+.header_top {
+  color: red;
+}
+.header_text {
+  color: red;
+}
+.header_text .text {
+  margin-top: 100px;
+}
+
 main {
   background-color: white;
   margin: 0 auto;
