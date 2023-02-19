@@ -39,3 +39,26 @@ main {
     padding-left: 20px;
     padding-top: 10px;
 }
+
+.text_data2 {
+    /* justify-content: space-around;
+    list-style: none; */
+    display: inline-flex;
+}
+
+.text2 {
+    display: flex;
+}
+
+.osn {
+    display: flex;
+    justify-content: space-around;
+}
+
+.info2 {
+    color: yellowgreen;
+}
+
+.logo {
+    color: gold;
+}
