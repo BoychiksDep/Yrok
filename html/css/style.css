@@ -1,10 +1,17 @@
 body {
-    background-color: #4169E1;
+    background-color: #6A5ACD;
 }
 
 .container {
     width: 600px;
     margin: 0 auto;
+    border-radius: 20px;
+    color: blue;
+}
+
+.avatars {
+    border: 1px solid black;
+    border-radius: 30px;
 }
 
 header>div {
@@ -12,19 +19,26 @@ header>div {
     margin: 0 auto;
 }
 
+footer>div {
+    color: black;
+}
+
 header ul {
     display: flex;
     list-style: none;
-    padding: 10;
+    /* padding: 10; */
     justify-content: space-around;
     font-size: 18px;
     /* vertical-align; */
     margin-top: 100px;
     /* padding-top: 20px; */
+    color: black;
 }
 
 .photo img {
     width: 200px;
+    border: 2px solid yellow;
+    border-radius: 10px;
 }
 
 .info {
@@ -33,6 +47,7 @@ header ul {
 
 ul {
     list-style: none;
+    /* margin-left: auto; */
 }
 
 .text {
