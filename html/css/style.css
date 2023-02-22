@@ -86,3 +86,7 @@ main {
 .logo {
     color: gold;
 }
+
+ul {
+    padding: 0;
+}
