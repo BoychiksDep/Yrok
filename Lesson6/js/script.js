@@ -7,6 +7,7 @@ function read() {
 
     text.innerHTML += login.value;
 
+
     list.push(login, password)
 
     console.log(list);
