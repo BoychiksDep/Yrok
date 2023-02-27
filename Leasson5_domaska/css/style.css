@@ -21,7 +21,73 @@ header .zagolovok1 {
 header .flex2 {
   display: flex;
 }
+header .flex2 div {
+  padding-left: 30px;
+}
 
+main {
+  margin-top: 70px;
+}
+main .foter {
+  display: flex;
+  justify-content: center;
+}
+main .block3 .icon2 {
+  background-color: skyblue;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+main .block3 i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+}
+main .block2 .icon {
+  background-color: skyblue;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+main .block2 i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+}
+main .block1 div:first-child {
+  background-color: skyblue;
+  width: 50px;
+  height: 50px;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+main .block1 div:first-child i {
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  font-size: 20px;
+}
+main .block1 {
+  padding-top: 50px;
+}
+main .block2 {
+  padding-top: 50px;
+  padding-left: 50px;
+}
+main .block3 {
+  padding-top: 50px;
+  padding-left: 50px;
+}
 main .img_backgr {
   height: 300px;
   background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470);
@@ -44,30 +110,12 @@ main .img_backgr .min_zago2 {
 }
 
 footer {
-  margin-top: 70px;
-}
-footer .foter {
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
+  padding-top: 20%;
+  font-size: 18px;
+  text-align: end;
 }
-footer .block1 div:first-child {
-  background-color: skyblue;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  border-radius: 50%;
-}
-footer .block1 div:first-child i {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  font-size: 20px;
-}
-footer .block2 {
-  padding-left: 50px;
-}
-footer .block3 {
-  padding-left: 50px;
+footer div {
+  color: black;
 }/*# sourceMappingURL=style.css.map */
