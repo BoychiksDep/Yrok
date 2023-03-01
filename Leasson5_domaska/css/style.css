@@ -110,12 +110,10 @@ main .img_backgr .min_zago2 {
 }
 
 footer {
+  margin-top: 50px;
+  font-size: 18px;
+}
+footer .container {
   display: flex;
   justify-content: space-around;
-  padding-top: 20%;
-  font-size: 18px;
-  text-align: end;
-}
-footer div {
-  color: black;
 }/*# sourceMappingURL=style.css.map */
