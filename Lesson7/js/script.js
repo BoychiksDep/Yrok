@@ -6,7 +6,7 @@ var list = [
 render();
 
 function add() {
-    var login = document.getElementById("login");
+    var login =http://127.0.0.1:5500/Leasson5_domaska/domaska.html document.getElementById("login");
     var password = document.getElementById("password");
     var email = document.getElementById("email");
 

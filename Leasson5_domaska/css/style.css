@@ -32,61 +32,25 @@ main .foter {
   display: flex;
   justify-content: center;
 }
-main .block3 .icon2 {
+main .foter .block {
+  padding-top: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+main .foter .block .icon {
   background-color: skyblue;
   width: 50px;
   height: 50px;
   margin: 0 auto;
   border-radius: 50%;
 }
-main .block3 i {
+main .foter .block i {
   color: white;
   display: flex;
   justify-content: center;
   align-items: center;
   height: 100%;
   font-size: 20px;
-}
-main .block2 .icon {
-  background-color: skyblue;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  border-radius: 50%;
-}
-main .block2 i {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  font-size: 20px;
-}
-main .block1 div:first-child {
-  background-color: skyblue;
-  width: 50px;
-  height: 50px;
-  margin: 0 auto;
-  border-radius: 50%;
-}
-main .block1 div:first-child i {
-  color: white;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  height: 100%;
-  font-size: 20px;
-}
-main .block1 {
-  padding-top: 50px;
-}
-main .block2 {
-  padding-top: 50px;
-  padding-left: 50px;
-}
-main .block3 {
-  padding-top: 50px;
-  padding-left: 50px;
 }
 main .img_backgr {
   height: 300px;
@@ -116,4 +80,17 @@ footer {
 footer .container {
   display: flex;
   justify-content: space-around;
+}
+
+@media screen and (max-width: 900px) {
+  .container {
+    width: 100% !important;
+  }
+  main .foter {
+    flex-wrap: wrap;
+  }
+  main .foter .block {
+    width: 100%;
+    text-align: center;
+  }
 }/*# sourceMappingURL=style.css.map */
