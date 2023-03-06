@@ -1,12 +1,12 @@
 var list = [
-    ["Bohdan1", "pass","boda@gmail.com"],
-    ["Bohdan2", "pass1","boda@gmail.com"],
-    ["Bohdan3", "pass2","boda@gmail.com"]
+    ["Bohdan1", "pass", "boda@gmail.com"],
+    ["Bohdan2", "pass1", "boda@gmail.com"],
+    ["Bohdan3", "pass2", "boda@gmail.com"]
 ];
 render();
 
 function add() {
-    var login =http://127.0.0.1:5500/Leasson5_domaska/domaska.html document.getElementById("login");
+    var login = document.getElementById("login");
     var password = document.getElementById("password");
     var email = document.getElementById("email");
 
@@ -16,11 +16,11 @@ function add() {
     render();
 }
 
-function render(){
+function render() {
     var table = document.getElementById("table");
     console.log(list);
     var str = "";
-    for(var i = 0; i < list.length; i++){
+    for (var i = 0; i < list.length; i++) {
         str += `
             <tr>
                 <td>${i+1}</td>

@@ -28,6 +28,9 @@ header div {
   width: 200px;
   margin: 0 auto;
 }
+header img {
+  height: 70px;
+}
 
 main {
   background-color: white;
@@ -69,4 +72,31 @@ footer .info2 {
 }
 footer .logo {
   color: gold;
+}
+
+@media screen and (max-width: 600px) {
+  .container {
+    width: 100% !important;
+  }
+  header ul {
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  header ul li {
+    text-align: center;
+  }
+  header ul li i {
+    margin-right: 10px;
+  }
+  main .info {
+    width: 100%;
+    flex-wrap: wrap;
+  }
+  main .info img {
+    text-align: center;
+    height: 100%;
+  }
+  main .info .photo {
+    margin: 0 auto;
+  }
 }/*# sourceMappingURL=style1.css.map */
