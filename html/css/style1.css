@@ -75,10 +75,6 @@ footer .logo {
 }
 
 @media screen and (max-width: 600px) {
-  footer {
-    display: flex;
-    flex-flow: column wrap;
-  }
   .container {
     width: 100% !important;
   }
@@ -92,6 +88,12 @@ footer .logo {
   header ul li i {
     margin-right: 10px;
   }
+  main {
+    padding: 0;
+  }
+  main div, main h1, main h2, main h3, main h4, main h5, main h6 {
+    padding: 10px;
+  }
   main .info {
     width: 100%;
     flex-wrap: wrap;
@@ -102,5 +104,12 @@ footer .logo {
   }
   main .info .photo {
     margin: 0 auto;
+  }
+  footer {
+    flex-wrap: wrap;
+  }
+  footer div {
+    width: 100%;
+    text-align: center;
   }
 }/*# sourceMappingURL=style1.css.map */
