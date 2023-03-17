@@ -1,0 +1,44 @@
+    .blue {
+        background-color: blue;
+    }
+    
+    body {
+        background-color: rgb(194, 194, 194);
+    }
+    
+    .h2 {
+        color: blue;
+    }
+    
+    .ul {
+        list-style: none !important;
+        .li {
+            width: 20px;
+            height: 50px;
+        }
+    }
+    
+    body {
+        margin: 0 auto;
+        .container {
+            width: 900px;
+            margin: 0 auto;
+        }
+    }
+    
+    header {
+        .flex1 {
+            display: flex;
+            justify-content: space-between;
+        }
+        .big_shrft {
+            font-size: 30px;
+        }
+    }
+    
+    main {
+        .flex2 {
+            display: flex;
+            flex-flow: column-reverse;
+        }
+    }
