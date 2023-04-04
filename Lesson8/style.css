@@ -1,0 +1,39 @@
+h1{
+    background-color: green;
+}
+div>h1{
+    background-color: red;
+}
+div>main>h1{
+    background-color: orange;
+}
+
+
+
+/* #h1{
+    color: white; 
+} */
+/* h1{
+    color: orange;
+}
+.h1{
+    color: red;
+} */
+h1:hover{
+    color: blue;
+}
+h1:active{
+    color: white;
+}
+
+.div div:last-child{
+    background-color: orange;
+}
+li:last-child{
+    background-color: orange;
+}
+.text{
+    font-size: 40px;
+    background-color: red;
+    line-height: 60px;
+}
