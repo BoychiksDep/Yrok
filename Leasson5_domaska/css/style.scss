@@ -39,7 +39,6 @@ main {
     .foter {
         display: flex;
         justify-content: center;
-    
         // .block1 {
         //     height: 20px;
         //     background-image: url(https://cdn-icons-png.flaticon.com/512/4942/4942902.png);
@@ -65,7 +64,6 @@ main {
             }
         }
     }
- 
     .img_backgr {
         height: 300px;
         background-image: url(https://img.rawpixel.com/s3fs-private/rawpixel_images/website_content/v546batch3-mynt-34-badgewatercolor_1.jpg?w=800&dpr=1&fit=default&crop=default&q=65&vib=3&con=3&usm=15&bg=F4F4F3&ixlib=js-2.2.1&s=89288ef4b47127f7f34a5998b50e4470);
@@ -89,9 +87,8 @@ main {
     }
 }
 
-
 footer {
-    .container{
+    .container {
         display: flex;
         justify-content: space-around;
     }
@@ -99,15 +96,14 @@ footer {
     font-size: 18px;
 }
 
-
 @media screen and (max-width: 900px) {
-    .container{
+    .container {
         width: 100% !important;
     }
     main {
         .foter {
             flex-wrap: wrap;
-            .block{
+            .block {
                 width: 100%;
                 text-align: center;
             }

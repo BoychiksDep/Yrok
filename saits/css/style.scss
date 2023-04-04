@@ -1,0 +1,22 @@
+.body {
+    background-color: wheat;
+    margin: 0 auto;
+}
+
+.container {
+    width: 480px;
+    margin: 0 auto;
+}
+
+.imgd {
+    display: flex;
+    justify-content: center;
+    height: 320px;
+}
+
+.info {
+    flex-wrap: wrap;
+    h4 {
+        color: gray;
+    }
+}
