@@ -1,0 +1,43 @@
+body {
+  background-color: rgb(0, 54, 116);
+}
+body .container {
+  width: 300px;
+  margin: 0 auto;
+}
+
+header .blocks {
+  display: flex;
+  flex-flow: column wrap;
+  height: 100%;
+}
+header .block1 {
+  border: 3px solid rgb(255, 153, 0);
+  padding: 20px;
+  width: 425px;
+  background-color: rgb(255, 153, 0);
+}
+header .article {
+  margin-top: 30px;
+  border: 3px solid rgb(255, 153, 0);
+  padding: 45px;
+  width: 100px;
+  height: 150px;
+  background-color: rgb(255, 153, 0);
+}
+header .text1 {
+  margin-top: 30px;
+  border: 3px solid rgb(255, 153, 0);
+  padding: 45px;
+  width: 100px;
+  height: 150px;
+  background-color: rgb(255, 153, 0);
+}
+header .text2 {
+  margin-top: 30px;
+  border: 3px solid rgb(255, 153, 0);
+  padding: 45px;
+  width: 100px;
+  height: 150px;
+  background-color: rgb(255, 153, 0);
+}/*# sourceMappingURL=style.css.map */
