@@ -1,0 +1,31 @@
+.block{
+    background-color: orange;
+    height: 100px;
+    margin-top: 10px;
+}
+.blockL{
+    background-color: green;
+    height: 300px;
+    /* margin: 10px; */
+    width: 50%;
+}
+
+.block2_2{
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+
+}
+.blockK{
+    background-color: orange;
+    height: 48%;
+    width: 100%;
+    
+}
+
+.block2{
+    display: flex;
+    justify-content: space-between;
+    gap: 10px;
+    margin-top: 10px;
+}
